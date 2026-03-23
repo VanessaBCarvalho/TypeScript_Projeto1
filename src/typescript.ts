@@ -9,17 +9,17 @@ const lista: number[] = [];
 lista.push(13, 22.5, 22, 89, 1.58);
 
 // Tipos Personalizados (Type Alias)
-type Transacao = {
+type Transacao1 = {
     tipoTransacao: string;
     data: Date;
     valor: number;
-}
+}//
 
 //Enum
 enum TipoTransacao {
-    DEPOSITO = "Depósito",
-    TRANSFERENCIA = "Transferência",
-    PAGAMENTO_BOLETO = "Pagamento de Boleto"
+    DEPOSITO1 = "Depósito",
+    TRANSFERENCIA1 = "Transferência",
+    PAGAMENTO_BOLETO1 = "Pagamento de Boleto"
 }
 
 const novaTransacao: Transacao = {
@@ -28,3 +28,5 @@ const novaTransacao: Transacao = {
     valor: 0,
 
 }
+
+console.log(novaTransacao);
